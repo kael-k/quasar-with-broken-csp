@@ -20,3 +20,6 @@ will trigger `setOverflowAnchor`.
 `setOverflowAnchor` will add a `style` element to the DOM and try to add some rules,
 which obviously will make the browser angry (because of the CSP).
 
+## How to reproduce
+1. start the app by building and running the Dockerfile (or build it yourself and run in a web server which sets the at least the CSP `style-src` "self"`)
+2. click on the QSelect
