@@ -5,7 +5,7 @@ Contains a really basic quasar project, which is actually the auto-generated one
 I only changed `src/components/ExampleComponent.vue` in order to have a `QSelect` instance
 
 ## The issue
-Builded code breaks `Content-Security-Policy` rules: clicking on `QSelect` will generate an error with CSP:
+Built code breaks `Content-Security-Policy` rules: clicking on `QSelect` will generate an error with CSP:
 
 > Refused to apply inline style because it violates the following Content Security Policy
 > directive: "default-src 'self'". Either the 'unsafe-inline' keyword, a hash ('sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='),
