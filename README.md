@@ -1,5 +1,7 @@
 # Quasar App with broken CSP demo
 
+A demo to show the bug for issue https://github.com/quasarframework/quasar/issues/13025
+
 ## This repo
 Contains a really basic quasar project, which is actually the auto-generated one.
 I only changed `src/components/ExampleComponent.vue` in order to have a `QSelect` instance
